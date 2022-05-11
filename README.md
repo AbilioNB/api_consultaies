@@ -9,4 +9,6 @@ PARA INICIALIZAR A API
 
 ENDPOINTS
   /api/ies/[]
+  
+  
   /api/curso/?search=[]
