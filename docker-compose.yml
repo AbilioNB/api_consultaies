@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+
+  api_buscaies:
+    build: ./docker
+    container_name: api_buscaies
+    restart: always
+    ports:
+     - "8000:8000"
