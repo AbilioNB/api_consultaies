@@ -1,12 +1,7 @@
-# This is an auto-generated Django model module.
-# You'll have to do the following manually to clean this up:
-#   * Rearrange models' order
-#   * Make sure each model has one field with primary_key=True
-#   * Make sure each ForeignKey and OneToOneField has `on_delete` set to the desired behavior
-#   * Remove `managed = False` lines if you wish to allow Django to create, modify, and delete the table
-# Feel free to rename the models, but don't rename db_table values or field names.
 from django.db import models
 
+#Modelos para cada elemento de dados da API.
+#Contém Cursos e Instituições, além de cada um dos Indicadores e Notas do INEP para os mesmos.
 
 class CensoCurso(models.Model):
     id_censo_curso = models.AutoField(db_column='ID_CENSO_CURSO', primary_key=True, blank=True)  # Field name made lowercase.
