@@ -3,7 +3,7 @@ version: '3.9'
 services:
 
   api_buscaies:
-    build: ./api/Docker
+    build: ./Docker/api
     container_name: api_buscaies
     command: python manage.py runserver 0.0.0.0:8000
     tty: true
