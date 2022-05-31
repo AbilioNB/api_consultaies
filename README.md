@@ -1,13 +1,22 @@
-# api_consultaies
-API Rest da aplicação Consulta IES, feita em Python e construída no Django Rest Framework.
+# API- Consulta_IES
+API Rest da aplicação Consulta IES. 
 
-Os modelos se encontram em models.py, e foram feitos baseados nas colunas do BD feito para a aplicação.
+## Objetivo
+
+Fornecer dados sobre as instituiçõoes pública e privadas de ensino superior. 
+
+## Formas de Instalação
+
+### Via Docker Compose
+
+Basta clonar o repositório e utilizar o docker-compose para inciar a API.
+
+### Via Python
+
+Basta clonar o projeto, e utilizar o PIP para instalar as dependências do projeto logo após seguir os passos da inicialização.
 
 
-INICIALIZAÇÃO
-
-
-Após a instalação, basta executar os seguintes comandos:
+> pip install requirements.txt
 
 
 > cd restapi
@@ -16,16 +25,17 @@ Após a instalação, basta executar os seguintes comandos:
 > python manage.py runserver
 
 
-UTILIZAÇÃO NA APLICAÇÃO
+## UTILIZAÇÃO NA APLICAÇÃO
 
+Swagger pode ser acessado:
 
-Os seus dados são puxados pelo Consulta IES para apresentar as informações requisitadas, através de endpoints configurados nos arquivos views.py & urls.py.
+Aqui é possível acessar as informações dos endpoints e ainda visualizar os models da API.
 
+> http://localhost:8000/swagger/
 
 Endpoints:
-
-
 >  /api/ies/[]
   
   
 >  /api/curso/?search=[]
+
